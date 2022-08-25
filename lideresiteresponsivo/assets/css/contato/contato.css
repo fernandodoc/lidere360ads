@@ -1,0 +1,85 @@
+  /* On smaller screens, where height is less than 378px, change the style of the sidenav (less padding and a smaller font size) */
+
+  /*início do colchete responsivo mobile*/
+@media only screen and (max-width: 378px) {
+
+.contato {
+    background-color: #f2f2f2;
+}
+
+  .contato__title {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 80px 20px 80px;
+    line-height: 62px;
+    color: #5A5858;
+    text-transform: uppercase;
+}
+
+.ctto-descript {
+    padding: 0 40px 10px 40px;
+}
+
+ 
+.contato__description {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 24px;
+    text-align: center;
+    text-align: center;
+    line-height: 28px;
+    color: #5A5858;
+    padding-bottom: 20px;
+  }
+
+.telnumber {
+    font-weight: bold;
+}
+
+ /*início da estilização do formulário*/ 
+input[type=text], select, textarea, input[type=email], input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    color: #5A5858;
+
+  }
+  
+  input[type=submit] {
+    background-color: #45A3CA;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    transition: 0.5s;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FF9235;
+    transition: 0.5s;
+
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    color: #5A5858;
+    padding-bottom: 150px;
+
+  }
+
+}
+

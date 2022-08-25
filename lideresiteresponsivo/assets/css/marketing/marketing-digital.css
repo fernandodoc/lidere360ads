@@ -1,0 +1,279 @@
+/* On smaller screens, where height is less than 375px, change the style of the sidenav (less padding and a smaller font size) */
+
+/*início do colchete responsivo mobile*/
+@media only screen and (min-width: 375px) {
+
+/*início seção 1 mkt digital*/
+.mkt {
+    background-color: #F0F0F0;
+    padding-bottom: 70px;
+}
+
+.mkt__title {
+    color: #45A3CA;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.mkt__description {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.btn-bottom {
+    padding-bottom: 20px;
+}
+
+.btn-mkt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.mkt-btn__contratar {
+    background-color: #F27C38;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #5A5858;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.7s;  
+}
+/*fim seção 1 mkt digital*/
+
+/*início seção 2 precisa de ajuda para crescer*/
+.mkt-grow {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-comment-dollar, .fa-street-view, .fa-award {
+    font-size: 30px;
+    color: #5A5858;
+}
+
+.mkt-grow__title {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 80px 30px 30px 30px;
+    line-height: 1.2;
+}
+
+.mkt-grow__description-svq {
+    color: #45A3CA;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    padding: 20px 30px 60px 30px;
+}
+
+.mkt-grow__description {
+    color: #666464;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    padding: 20px 30px 70px 30px;
+}
+
+.mkt-grow__dvpa {
+    padding-bottom: 40px;
+}
+
+.mkt-grow__description-vpa {
+    color: #45A3CA;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    padding: 20px 30px 0 30px;
+}
+
+.mkt-btn__ajuda {
+    background-color: #F27C38;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #5A5858;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.7s;  
+}
+/*início seção 2 precisa de ajuda para crescer*/
+
+/*início seção 3 Não espere perder clientes para investir em marketing digital*/
+.mkt-investir {
+    background-color: #F27C38;
+    padding: 40px 0;
+}
+
+.mkt-investir-ttl {
+    color: #f2f2f2;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+    line-height: 1.2;
+}
+
+.mkt-investir-dcp {
+    color: #f2f2f2;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0 30px 40px 30px;
+    line-height: 1.2;
+}
+
+.mkt-investir-title {
+    color: #f2f2f2;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: right;
+    padding: 40px 40px 20px 40px;
+    line-height: 1.2;
+}
+
+
+.mkt-investir-description {
+    color: #f2f2f2;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    padding: 0 40px 20px 40px;
+    line-height: 1.2;
+}
+/*fim seção 3 Não espere perder clientes para investir em marketing digital*/
+
+/*início seção 4 Não espere perder clientes para investir em marketing digital*/
+
+.vantagens-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.fa-laptop-code, .fa-user-astronaut, .fa-bullhorn, .fa-shuttle-space, .fa-filter-circle-dollar, .fa-magnifying-glass-dollar {
+    font-size: 30px;
+    color: #666464;
+    padding: 20px;
+}
+
+.icons-vtg {
+    color: #666464;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 18px;
+    padding-bottom: 60px;
+    font-weight: 600;
+}
+/*fim seção 4 Não espere perder clientes para investir em marketing digital*/
+
+/*início seção 5 os principais serviços que executamos*/
+.mkt-services {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px 20px 30px;
+    background-color: #CEDEF2;
+}
+
+.mkt-img {
+    /*padding-top: 60px;*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.mkt-services__img {
+    padding-bottom: 80px;
+}
+
+.mkt-services__title {
+    color: #626973;
+    font-size: 30px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.mkt-services__description {
+    color: #626973;
+    font-size: 20px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding-top: 20px;
+    line-height: 1.3;
+    text-align: justify;
+}
+/*fim seção 5 os principais serviços que executamos*/
+
+/*início seção 6 Não deixe para procurar ajuda depois que a concorrência*/
+.ajudar-concorrência {
+    padding: 40px 40px 100px 40px;
+}
+
+.ajudar-concorrência__title {
+    color: #626973;
+    font-size: 30px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding-top: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.ajudar-concorrência__description {
+    color: #626973;
+    font-size: 20px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding-top: 20px;
+    line-height: 1.3;
+}
+
+.mkt-btn__eqa {
+    background-color: #F27C38;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #5A5858;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.7s; 
+}
+
+/*fim seção 6 Não deixe para procurar ajuda depois que a concorrência*/
+
+
+
+} /*fim do colchete responsivo mobile*/

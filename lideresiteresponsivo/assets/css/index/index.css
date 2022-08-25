@@ -1,0 +1,1907 @@
+  
+  
+  /* On smaller screens, where height is less than 600px, change the style of the sidenav (less padding and a smaller font size) */
+
+  /*início do colchete responsivo mobile*/
+  @media only screen and (max-width: 600px) {
+  
+    /*início do menu mobile*/
+    .logoavatar {
+        width: 50px;
+    }
+    
+    .nav {
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 29px;
+        color: #000000;
+    }
+    
+      #navthree {
+        color: #F2541B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+      .sidebar {
+        height: 50%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    
+        background-color: #F28F38;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 26px;
+        color: #171414;
+        display: block;
+        transition: 0.3s;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+      }
+        
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      .openbtn {
+        font-size: 26px;
+        cursor: pointer;
+        color: black;
+        /*padding: 10px 12px;*/
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        background-color: #FFFFFF;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 23px;
+      }
+      /*final do menu mobile*/
+    
+        
+      /* início das redes sociais e botão 600 */
+       .socialmedia {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 32px 20px 32px;
+        background-color: #45A3CA;
+        align-items: center;
+        width: 100%px;
+    }
+    
+    .botao__fale {
+        border-color: #000000;
+        background-color: #45A3CA;
+        border-radius: 5px;
+        color: #000000;
+        cursor: pointer;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 500;
+        height: 39.26px;
+        line-height: 20px;
+        pointer-events: auto;
+        width: 150px;
+        transition: 0.5s;
+    }
+    
+    .botao__fale:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+        transition: 0.7s;
+    }
+     
+        
+    .fa-brands {
+        /*overflow-wrap: break-word;
+        transform: matrix(1, 0, 0, 1);*/
+        font-size: 30px;
+        padding-right: 15px;
+        cursor: pointer; 
+    }
+    
+    .fa-facebook {
+        font-size: 28px;
+    }
+    
+    .fa-whatsapp {
+        font-size: 29px;
+    }
+    
+    .fa-brands:hover {
+        font-size: 35px;
+    }
+    /* final das redes sociais e botão 600*/
+    
+    /* início das políticas e termos 600 */
+    .politics {
+        align-items: center;
+        background-color: black;
+        display: flex;
+        height: 37px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 14px;
+        justify-content: flex-start;
+        padding-left: 33px; 
+    }
+    
+    .politics__item {
+        padding-right: 16px;  
+        text-decoration: none;
+        color: #FFFFFF;  
+    }
+    
+    .politics__item:hover {
+        color: #FF9235;
+        cursor: pointer;
+    }
+    /* fim das políticas e termos 600 */
+    
+    /* início da seção 1 - construindo oportunidades digitais 600 */
+    .construindooportunidades {
+        padding-bottom: 60px;
+    }
+    
+    .oportunity {
+        padding-top: 40px;
+    }
+    
+    .construindo {
+        padding: 80px;
+        background-color: #F2EDED; 
+        /*height: 210px; */
+    }
+    
+    .construindo__title {
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 600;
+        font-size: 42px;
+        text-align: center;
+        line-height: 1.1;
+    }
+    
+    .construindo__title-two {
+        padding-top: 20px;
+    }
+                
+    .construindo__muitomais {
+        padding: 40px 20px 20px 20px;
+    }
+    
+    .construindo__text {
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35.16px;
+        text-align: center;  
+    }
+    
+    .construindo__text-two {
+        padding-top: 20px;
+    }
+    
+    .queroajuda {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 0 0;
+    
+    }
+    
+    .botao__queroajuda {
+        background-color: #FF9235;
+        border: 1px solid #40250D;
+        box-sizing: border-box;
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 24px;
+        font-weight: 500;
+        height: 55px;
+        line-height: 35.16px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        width: 217px;    
+    }
+    
+    .botao__queroajuda:hover {
+        background-color: #5A5858;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: 0.5s;
+    
+        animation-name: example;
+        animation-duration: 1s;
+    }
+    /* fim da seção 1 - construindo oportunidades digitais 600 */
+    
+    /*início da seção 2 - o que oferecemos 600*/
+    .oferecemos {
+        background-color: #F0F0F0;
+        padding-top: 40px;
+    }
+    
+    .oferecemos__title {
+        padding-bottom: 60px;
+        font-size: 34px;
+    }
+    
+    .imagem__oferecemos {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 8 0 0 16px rgba(0.2,0,0,0);
+    }
+    
+    .oferecer {
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .descricao__oferecemos {
+        padding: 20px 40px 80px 40px;
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.3;
+    }
+    /*fim da seção 2 - o que oferecemos 600*/
+    
+    /*início da seção 3 - nossos diferenciais 600*/
+    .nossos__diferenciais {
+        background-color: #F2E52E;
+        padding-top: 60px;
+    }
+    
+    .diferenciais {
+        color: #5A5858;
+        font-size: 40px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    
+    .symbol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fa-circle-dollar-to-slot, .fa-user-group, .fa-chalkboard-user, .fa-user-ninja, .fa-file-waveform, .fa-hand-holding-dollar {
+        color: #5A5858;
+        font-size: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .diferenciais__title {
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .diferenciais__description {
+        padding: 0 30px 60px 30px;
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    /*fim da seção 3 - nossos diferenciais 600*/
+    
+    /*início da seção 4 - quem somos 600*/
+    .quem-somos {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    
+    .quem__title {
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 700;
+        font-size: 38px;
+        text-transform: uppercase;
+        padding: 40px 0 0 20px;
+    }
+    
+    .quem__title-somos {
+        color: #5A5858;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 10px 0 20px 22px;
+    }
+    
+    .quemsomos__description {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 400;
+        font-size: 16px;
+        color: #3d3d3d;
+        padding: 10px 35px 10px 50px;
+        text-align: justify;
+        line-height: 24px;
+    }
+    
+    .quem__descricao-fundador {
+        font-style: italic;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px 50px 20px 80px;
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    .quem__descricao-fundador-fernando {
+        font-style: italic;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 50px 0 120px;
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    .quemborda {
+        border-bottom: 2px solid #3d3d3d;
+        width: 345px;    
+        padding-top: 10px;
+    }
+    
+    .quem__descricao-fundador-fernandolidere {
+        font-style: italic;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 52px 0 120px;
+        text-align: right;
+    }
+    
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-ajuda {
+        padding: 10px 0 0 400px;
+    }
+    
+    .botao__ajuda {
+        width: 150px;
+        height: 40px;
+        background: #FF8602;
+        border: 1px solid #5A5858;
+        border-radius: 3px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .btn-assista {
+        padding: 10px 0 0 400px;
+    
+    }
+    
+    .botao__assista {
+        width: 150px;
+        height: 40px;
+        color: #5A5858;
+        cursor: pointer;
+        border: 1px solid #5A5858;
+        border-radius: 3px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        background-color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /*final da seção 4 - quem somos 600*/
+    
+    /*início da seção 5 - pilares da nossa cultura 600*/
+    .pilares {
+        background-color: #383838;
+        padding-bottom: 40px;    
+    }
+    
+    .tle-pil {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .title-pilares, .title-cultura, .title-corporativa {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 700;
+        font-size: 46px;
+        color: rgb(148, 148, 148);
+        /*color: #3e3e3e;*/
+        line-height: 1.3;
+        padding-left: 30px;
+    }
+    
+    .title-lidere { 
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 700;
+        font-size: 46px;
+        color: #C9C9C9;
+        padding-left: 30px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    
+    .pilar {
+        padding:0 20px 30px 20px;
+    }
+    
+    .pilarestitle {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        color: #5A5858;
+        font-stretch: 100;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        line-height: 52px;
+    }
+    
+    .pilares1 {
+        width: 340px;
+        height: 420px;
+        background: #2BA1D3;
+        border-radius: 25px 25px 25px 25px;  
+        color: #F5F5F5; 
+    }
+    
+    .pilares1__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #F5F5F5;
+    }
+    
+    .pilares1__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #F5F5F5;
+        padding: 45px;
+    }
+    
+    .pilares2 {
+        width: 340px;
+        height: 470px;
+        background: #E4F7FF;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares2__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #5A5858;
+    }
+    
+    .pilares2__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #5A5858;
+        padding: 45px;
+    }
+    
+    .pilares3 {
+        width: 340px;
+        height: 425px;
+        background: #FFF0CB;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares3__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #5A5858;
+    }
+    
+    .pilares3__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #5A5858;
+        padding: 45px;
+    }
+    
+    .pilares4 {
+        width: 340px;
+        height: 435px;
+        background: #FF851C;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares4__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #F5F5F5;
+    }
+    
+    .pilares4__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #F5F5F5;
+        padding: 45px;
+    }
+    
+    .pilares5 {
+        width: 340px;
+        height: 445px;
+        background: #2C6133;
+        border-radius: 25px 25px 25px 25px;   
+    }
+    
+    .pilares5__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #F5F5F5;
+    }
+    
+    .pilares5__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #F5F5F5;
+        padding: 45px;
+    }
+    
+    .pilares6 {
+        width: 340px;
+        height: 445px;
+        background: #E2F0D3;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares6__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #5A5858;
+    }
+    
+    .pilares6__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #5A5858;
+        padding: 45px;
+    }
+    
+    .pilares7 { 
+        width: 340px;
+        height: 460px;
+        background: #FBD8DA;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares7__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #5A5858;
+    }
+    
+    .pilares7__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #5A5858;
+        padding: 45px;
+    }
+    
+    .pilares8 {
+        width: 340px;
+        height: 445px;
+        background: #F26D78;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares8__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #F5F5F5;
+    }
+    
+    .pilares8__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #F5F5F5;
+        padding: 45px;
+    }
+    
+    .pilares9 {
+        width: 340px;
+        height: 460px;
+        background: #6E717D;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares9__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #F5F5F5;
+    }
+    
+    .pilares9__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #F5F5F5;
+        padding: 45px;
+    }
+    
+    .pilares10 {  
+        width: 340px;
+        height: 445px;
+        background: #F4F5FC;
+        border-radius: 25px 25px 25px 25px;  
+    }
+    
+    .pilares10__title {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 52px;
+        color: #5A5858;
+    }
+    
+    .pilares10__text {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: right;
+        line-height: 35px;
+        color: #5A5858;
+        padding: 45px;
+    }
+    /*fim da seção 5 - pilares da nossa cultura 600*/
+    
+    /*início da seção 6 - você precisa de ajuda 600*/
+    .ajudar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .ajudar__title {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 30px;
+        font-weight: 600;
+        color: #5A5858;
+    }
+    
+    .ajudar__description {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        color: #5A5858;
+        padding-top: 10px;
+    }
+    
+    .img-fotos {
+        padding: 20px 0 20px 0;
+    }
+    
+    .img, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .fotos-logo {
+        width: 40%;
+    }
+    /*fim da seção 6 - você precisa de ajuda 600*/
+    
+    /*rodapé | início da seção 7 - rodapé 600*/
+    .rodape {
+        background-color: #000000;
+        color: #D9D9D9;
+    }
+    
+    .nossos {
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 30px 0 7px 30px;
+    }
+    
+    .rodape__servicos {
+        font-size: 18px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        padding: 10px 0 0 60px;
+        line-height: 1.3;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodape__servicos-item {
+        padding-bottom: 10px;
+    }
+    
+    .rodape__borda {
+        border-top: 2px solid #D9D9D9;
+        margin-left: 31px;
+    }
+    
+    .rodatermosocial {
+        color: #FF9235;
+        font-size: 16px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-weight: 400;
+        padding: 20px 40px 5px 0;
+        text-align: right;
+        font-style: italic;
+    }
+    
+    .rodape__social {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodape__social-item {
+        padding-bottom: 7px;
+    }
+    
+    .rodape-tel {
+        display: flex;
+        align-items: center;
+        padding-left: 26px;
+    }
+    
+    .fa-phone-volume {
+        color: #2BA1D3;
+        font-size: 16px;
+    }
+    
+    .rodape__contato-tel {
+        color: #2BA1D3;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        padding-left: 9px;
+        font-weight: 500;
+    }
+    
+    .roda-tel-email {
+        padding-top: 30px;
+    }
+    
+    .rodape-email {
+        display: flex;
+        align-items: center;
+        padding-left: 26px;
+        padding-top: 10px;
+    }
+    
+    .fa-envelope {
+        color: #2BA1D3;
+        font-size: 16px;
+    }
+    
+    .rodape__contato-email {
+        color: #2BA1D3;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        padding-left: 9px;
+        font-weight: 500;
+    }
+    
+    .rodape__contato-idioma {
+        display: none;
+    }
+    
+    .rodape__termos {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    
+    .rodape__termos-item {
+        padding-right: 10px;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+        font-size: 12px;
+        color: #D9D9D9
+    }
+    /*rodapé | fim da seção 7 - rodapé 600*/
+    
+} /*início do colchete responsivo mobile*/
+    
+
+
+
+  
+  /* On smaller screens, where height is less than 0, change the style of the sidenav (less padding and a smaller font size) */
+
+  /*início do colchete responsivo mobile*/
+  @media only screen and (min-width: 375px) {
+  
+/*início do menu mobile*/
+
+.cabecalho-secundario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logolideredesktop {
+    width: 70%;
+    /*padding: 20px 0 20px 26px;*/
+    padding-left: 26px;
+}
+
+.logolider {
+display: flex;
+justify-content: space-between;
+}
+
+.nav {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    /*padding-top: 5px;*/
+    font-size: 29px;
+    color: #000000;
+}
+
+.fa-bars {
+    
+    display: flex;
+    font-size: 36px;
+    color: #ff9235;
+    /*padding-right: 10px;*/
+    /*padding-top: 10px;*/
+    padding-bottom: 2px;
+    padding-top: 4px;
+
+
+}
+
+#mySidebar {
+    transition: 0.5s;
+
+}
+  
+  .sidebar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    background-color: #ff9235;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #171414;
+    display: block;
+    transition: 0.3s;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+    
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 11px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding-right: 12px;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  /*final do menu mobile*/
+
+    
+  /* início das redes sociais e botão */
+.socialmedia__icon {
+    display: flex;
+    justify-content: center;
+}
+
+
+   .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px 20px 32px;
+    background-color: #45A3CA;
+    align-items: center;
+    width: 100%px;
+}
+
+.botao__fale {
+    border-color: #000000;
+    background-color: #45A3CA;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    height: 39.26px;
+    line-height: 20px;
+    pointer-events: auto;
+    width: 150px;
+    transition: 0.5s;
+}
+
+.botao__fale:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+ 
+    
+.fa-brands {
+    /*overflow-wrap: break-word;
+    transform: matrix(1, 0, 0, 1);*/
+    font-size: 30px;
+    padding-right: 15px;
+    cursor: pointer; 
+
+}
+
+.fa-facebook {
+    font-size: 28px;
+}
+
+.fa-whatsapp {
+    font-size: 29px;
+}
+
+.fa-brands:hover {
+    font-size: 35px;
+}
+/* final das redes sociais e botão */
+
+/* início das políticas e termos */
+.politics {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 37px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 14px;
+    justify-content: flex-start;
+    padding-left: 33px; 
+}
+
+.politics__item {
+    padding-right: 16px;  
+    text-decoration: none;
+    color: #FFFFFF;  
+}
+
+.politics__item:hover {
+    color: #FF9235;
+    cursor: pointer;
+}
+/* fim das políticas e termos */
+
+/* início da seção 1 - construindo oportunidades digitais */
+.construindooportunidades {
+    padding-bottom: 60px;
+}
+
+.oportunity {
+    padding-top: 40px;
+}
+
+.construindo {
+    padding: 40px;
+    background-color: #F2EDED; 
+}
+
+.construindo__title {
+    /*color: #5A5858;*/
+    color: #45A3CA;
+
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.construindo__title-two {
+    padding-top: 20px;
+}
+            
+.construindo__muitomais {
+    padding: 40px 20px 20px 20px;
+}
+
+.construindo__text {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35.16px;
+    text-align: center;  
+}
+
+.construindo__text-two {
+    padding-top: 20px;
+}
+
+.queroajuda {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 0;
+
+}
+
+.botao__queroajuda {
+    background-color: #FF9235;
+    border: 1px solid #40250D;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    height: 55px;
+    line-height: 35.16px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 217px;    
+}
+
+.botao__queroajuda:hover {
+    background-color: #5A5858;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s;
+
+    animation-name: example;
+    animation-duration: 1s;
+}
+/* fim da seção 1 - construindo oportunidades digitais */
+
+/*início da seção 2 - o que oferecemos*/
+.oferecemos {
+    background-color: #F0F0F0;
+    padding-top: 40px;
+}
+
+.oferecemos__ttl {
+    padding-bottom: 60px;
+}
+
+.oferecemos__title {
+    padding-bottom: 100px;
+    font-size: 34px;
+}
+
+.imagem__oferecemos {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 8 0 0 16px rgba(0.2,0,0,0);
+}
+
+.oferecer {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 30px 0 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.descricao__oferecemos {
+    padding: 20px 40px 60px 40px;
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+/*fim da seção 2 - o que oferecemos*/
+
+/*início da seção 3 - nossos diferenciais*/
+.nossos__diferenciais {
+    background-color: #F2E52E;
+    padding-top: 60px;
+}
+
+.diferenciais {
+    color: #5A5858;
+    font-size: 42px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 40px 40px 40px;
+    line-height: 1.2;
+}
+
+.symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-circle-dollar-to-slot, .fa-user-group, .fa-chalkboard-user, .fa-user-ninja, .fa-file-waveform, .fa-hand-holding-dollar {
+    color: #5A5858;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diferenciais__title {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.diferenciais__description {
+    padding: 0 30px 60px 30px;
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+/*fim da seção 3 - nossos diferenciais*/
+
+/*início da seção 4 - quem somos*/
+.quem-somos {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.quem__title {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    padding: 40px 0 0 20px;
+}
+
+.quem__title-somos {
+    color: #5A5858;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 0 20px 22px;
+}
+
+.quemsomos__description {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    padding: 10px 35px 10px 50px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.quem__descricao-fundador {
+    font-style: italic;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 50px 20px 80px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quem__descricao-fundador-fernando {
+    font-style: italic;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 50px 0 120px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quemborda {
+    border-bottom: 2px solid #3d3d3d;
+    width: 100px;    
+    padding-top: 10px;
+}
+
+.quem__descricao-fundador-fernandolidere {
+    font-style: italic;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 52px 0 120px;
+    text-align: right;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-ajuda {
+    padding: 10px 0 0 176px;
+}
+
+.botao__ajuda {
+    width: 150px;
+    height: 40px;
+    background: #FF8602;
+    border: 1px solid #5A5858;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn-assista {
+    padding: 10px 0 0 176px;
+
+}
+
+.botao__assista {
+    width: 150px;
+    height: 40px;
+    color: #5A5858;
+    cursor: pointer;
+    border: 1px solid #5A5858;
+    border-radius: 3px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+/*final da seção 4 - quem somos*/
+
+/*início da seção 5 - pilares da nossa cultura*/
+.pilares {
+    background-color: #383838;
+    padding-bottom: 40px;    
+}
+
+.tle-pil {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title-pilares, .title-cultura, .title-corporativa {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 700;
+    font-size: 46px;
+    color: rgb(148, 148, 148);
+    /*color: #3e3e3e;*/
+    line-height: 1.3;
+    padding-left: 30px;
+}
+
+.title-lidere { 
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 700;
+    font-size: 46px;
+    color: #C9C9C9;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.pilar {
+    padding:0 20px 30px 20px;
+}
+
+.pilarestitle {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    color: #5A5858;
+    font-stretch: 100;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 52px;
+}
+
+.pilares1 {
+    width: 340px;
+    height: 420px;
+    background: #2BA1D3;
+    border-radius: 25px 25px 25px 25px;  
+    color: #F5F5F5; 
+}
+
+.pilares1__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #F5F5F5;
+}
+
+.pilares1__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #F5F5F5;
+    padding: 45px;
+}
+
+.pilares2 {
+    width: 340px;
+    height: 470px;
+    background: #E4F7FF;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares2__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #5A5858;
+}
+
+.pilares2__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #5A5858;
+    padding: 45px;
+}
+
+.pilares3 {
+    width: 340px;
+    height: 425px;
+    background: #FFF0CB;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares3__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #5A5858;
+}
+
+.pilares3__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #5A5858;
+    padding: 45px;
+}
+
+.pilares4 {
+    width: 340px;
+    height: 435px;
+    background: #FF851C;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares4__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #F5F5F5;
+}
+
+.pilares4__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #F5F5F5;
+    padding: 45px;
+}
+
+.pilares5 {
+    width: 340px;
+    height: 445px;
+    background: #2C6133;
+    border-radius: 25px 25px 25px 25px;   
+}
+
+.pilares5__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #F5F5F5;
+}
+
+.pilares5__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #F5F5F5;
+    padding: 45px;
+}
+
+.pilares6 {
+    width: 340px;
+    height: 445px;
+    background: #E2F0D3;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares6__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #5A5858;
+}
+
+.pilares6__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #5A5858;
+    padding: 45px;
+}
+
+.pilares7 { 
+    width: 340px;
+    height: 460px;
+    background: #FBD8DA;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares7__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #5A5858;
+}
+
+.pilares7__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #5A5858;
+    padding: 45px;
+}
+
+.pilares8 {
+    width: 340px;
+    height: 445px;
+    background: #F26D78;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares8__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #F5F5F5;
+}
+
+.pilares8__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #F5F5F5;
+    padding: 45px;
+}
+
+.pilares9 {
+    width: 340px;
+    height: 460px;
+    background: #6E717D;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares9__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #F5F5F5;
+}
+
+.pilares9__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #F5F5F5;
+    padding: 45px;
+}
+
+.pilares10 {  
+    width: 340px;
+    height: 445px;
+    background: #F4F5FC;
+    border-radius: 25px 25px 25px 25px;  
+}
+
+.pilares10__title {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 52px;
+    color: #5A5858;
+}
+
+.pilares10__text {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: right;
+    line-height: 35px;
+    color: #5A5858;
+    padding: 45px;
+}
+/*fim da seção 5 - pilares da nossa cultura*/
+
+/*início da seção 6 - você precisa de ajuda*/
+.ajudar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ajudar__title {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    color: #5A5858;
+}
+
+.ajudar__description {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5A5858;
+    padding-top: 10px;
+}
+
+.img-fotos {
+    padding: 20px 0 20px 0;
+}
+
+.img, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.fotos-logo {
+    width: 40%;
+}
+/*fim da seção 6 - você precisa de ajuda*/
+
+/*rodapé | início da seção 7 - rodapé*/
+.rodape {
+    background-color: #000000;
+    color: #D9D9D9;
+}
+
+.nossos {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0 7px 30px;
+}
+
+.rodape__servicos {
+    font-size: 18px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding: 10px 0 0 60px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__servicos-item {
+    padding-bottom: 10px;
+}
+
+.rodape__borda {
+    border-top: 2px solid #D9D9D9;
+    margin-left: 31px;
+}
+
+.rodatermosocial {
+    color: #FF9235;
+    font-size: 16px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-weight: 400;
+    padding: 20px 40px 5px 0;
+    text-align: right;
+    font-style: italic;
+}
+
+.rodape__social {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__social-item {
+    padding-bottom: 7px;
+}
+
+.rodape-tel {
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+}
+
+.fa-phone-volume {
+    color: #2BA1D3;
+    font-size: 16px;
+}
+
+.rodape__contato-tel {
+    color: #2BA1D3;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding-left: 9px;
+    font-weight: 500;
+}
+
+.roda-tel-email {
+    padding-top: 30px;
+}
+
+.rodape-email {
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+    padding-top: 10px;
+}
+
+.fa-envelope {
+    color: #2BA1D3;
+    font-size: 16px;
+}
+
+.rodape__contato-email {
+    color: #2BA1D3;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    padding-left: 9px;
+    font-weight: 500;
+}
+
+.rodape__contato-idioma {
+    display: none;
+}
+
+.rodape__termos {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.rodape__termos-item {
+    padding-right: 10px;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica;
+    font-size: 12px;
+    color: #D9D9D9
+}
+/*rodapé | fim da seção 7 - rodapé*/
+
+} /*início do colchete responsivo mobile*/

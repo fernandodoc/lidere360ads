@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Desenvolvimento de sites, Marketing digital, Treinamentos"
+    />
+    <meta
+      name="description"
+      content="Lidere 360 Ads - O lugar onde você encontra tudo o que precisa. Desenvolvimento de sites, marketing digital, cursos, treinamentos e soluções digitais."
+    />
+    <meta name="author" content="Fernando de Oliveira Cláudio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset/reset.css" />
+    <link rel="stylesheet" href="assets/css/index/index.css" />
+    <link rel="stylesheet" href="assets/css/contato/contato.css" />
+    <link rel="stylesheet" href="assets/css/sites/sites.css" />
+    <link rel="stylesheet" href="assets/css/marketing/marketing-digital.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Lidere 360 Ads - Desenvolvimento de sites e marketing digital</title>
+  </head>
+  <body>
+    <!--início das redes sociais e fale conosco-->
+    <section class="socialmedia">
+      <ul class="socialmedia__icon">
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+      </ul>
+      <div>
+        <a href="fale-conosco.html"
+          ><button class="botao__fale">Fale conosco</button></a
+        >
+      </div>
+    </section>
+    <!--fim das redes sociais e fale conosco-->
+
+    <div class="politics">
+      <!--início da política e termos-->
+      <a
+        class="politics__item"
+        href="politica-de-privacidade.html"
+        target="_blank"
+        >política de privacidade</a
+      >
+      <a class="politics__item" href="termos-de-uso.html" target="_blank"
+        >termos de uso</a
+      >
+    </div>
+    <!--fim da política e termos-->
+
+    <section class="cabecalho-secundario">
+      <!--início do menu mobile-->
+      <div class="logolider">
+        <img
+          class="logolideredesktop"
+          src="public/img/logolidere360ads_v1png.png"
+          alt=""
+        />
+      </div>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i>MENU</button>
+      </div>
+      <div id="mySidebar" class="sidebar">
+        <a href="" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Início</a>
+        <a href="sites.html">Sites</a>
+        <a href="marketing-digital.html">Marketing Digital</a>
+        <a href="treinamentos.html">Treinamentos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </section>
+      <!--fim do menu mobile-->
+
+
+
+<!--rodapé | início da seção 7 - rodapé-->
+<footer class="rodape">
+  <p class="nossos">Nossos serviços</p>
+  <div class="rodape__borda"></div>
+  <div class="rodape__servicos">
+      <p class="rodape__servicos-item">Treinamentos</p>
+      <p class="rodape__servicos-item">Marketing digital</p>
+      <p class="rodape__servicos-item">Desenvolvimento de sites</p>
+  </div>
+  <div class="rodatermosocial">
+      <div class="rodape__social">
+          <p class="rodape__social-item">instagram</p>
+          <p class="rodape__social-item">facebook</p>
+          <p class="rodape__social-item">linkedin</p>
+      </div>
+  </div>
+  <div class="roda-tel-email"></div>
+      <div class="rodape__contato">
+          <div class="rodape-tel">
+            <i class="fa-solid fa-phone-volume"></i>
+            <p class="rodape__contato-tel">+55 (16) 981.180.180</p>
+          </div>
+          <div class="rodape-email">
+              <i class="fa-solid fa-envelope"></i>
+              <p class="rodape__contato-email">fernando@lidere360ads.com</p>
+        </div>
+  </div>
+    
+      <div class="rodape__contato-idioma">
+          <p class="rodape__contato-idiomabra">pt-BR</p>
+          <p class="rodape__contato-idiomabrausa">></p>
+          <p class="rodape__contato-idiomausa">en-US</p>
+      </div>
+  </div>
+  <div class="rodape__termos">
+      <a class="rodape__termos-item" href="politica-de-privacidade.html" target="_blank">Política de privacidade</a>
+      <a class="rodape__termos-item" href="termos-de-uso.html" target="_blank">Termos de uso</a>
+  </div>
+</footer>
+<!--rodapé | início da seção 7 - rodapé-->
+
+
+
+  <script>
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "380px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+   
+</body>
+</html> 
