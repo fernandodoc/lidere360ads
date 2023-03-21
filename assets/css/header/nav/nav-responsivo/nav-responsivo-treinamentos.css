@@ -1,0 +1,11 @@
+/*1024 - início do site responsivo mobile*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .socialmedia {
+    background-color: #2ba1d3;
+    }
+
+    .fale-conosco {
+        background-color: #2ba1d3;
+
+    }
+}

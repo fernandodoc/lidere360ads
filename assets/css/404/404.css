@@ -1,0 +1,323 @@
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-left:  8px;
+    }
+
+    .page-404-subtitle {
+        font-size: 40px;
+        font-family: monospace;
+        font-weight: bold;
+        /*padding-top: 40px;*/
+        padding-left:  60px;
+    }
+
+    .page-404-p1 {
+        padding-top: 10px;
+        padding-left:  10px;
+        font-size: 12px;
+    }
+
+    .page-404-p {
+        padding-left:  10px;
+        font-size: 12px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 15px;
+        padding-left:  60px;
+    }
+
+    .page-404-p3 {
+        display: none;
+    }
+}
+
+/*375*/
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-left:  8px;
+    }
+
+    .page-404-subtitle {
+        font-size: 40px;
+        font-family: monospace;
+        font-weight: bold;
+        /*padding-top: 40px;*/
+        padding-left:  120px;
+    }
+
+    .page-404-p1 {
+        padding-top: 10px;
+        padding-left:  10px;
+        font-size: 14px;
+    }
+
+    .page-404-p {
+        padding-left:  10px;
+        font-size: 14px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 15px;
+        padding-left:  120px;
+    }
+
+    .page-404-p3 {
+        display: none;
+    }
+}
+
+/*425*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-left:  8px;
+    }
+
+    .page-404-subtitle {
+        font-size: 40px;
+        font-family: monospace;
+        font-weight: bold;
+        /*padding-top: 40px;*/
+        padding-left:  130px;
+    }
+
+    .page-404-p1 {
+        padding-top: 10px;
+        padding-left:  10px;
+    }
+
+    .page-404-p {
+        padding-left:  10px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 15px;
+        padding-left:  130px;
+    }
+
+    .page-404-p3 {
+        display: none;
+    }
+}
+
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-left:  30px;
+    }
+
+    .page-404-subtitle {
+        font-size: 80px;
+        font-family: monospace;
+        font-weight: bold;
+        padding-top: 80px;
+        padding-left:  30px;
+
+    }
+
+    .page-404-p1 {
+        padding-top: 20px;
+        padding-left:  35px;
+    }
+
+    .page-404-p {
+        padding-left:  35px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 20px;
+        padding-left:  50px;
+    }
+}
+
+/*1024*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 60px;
+        padding-left:  60px;
+    }
+
+    .page-404-subtitle {
+        font-size: 100px;
+        font-family: monospace;
+        font-weight: bold;
+        padding-top: 100px;
+        padding-left:  60px;
+    }
+
+    .page-404-p1 {
+        padding-top: 20px;
+        padding-left:  65px;
+    }
+
+    .page-404-p {
+        padding-left:  65px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 20px;
+        padding-left:  90px;
+    }
+}
+
+/*1440*/
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 60px;
+        padding-left:  60px;
+    }
+
+    .page-404-subtitle {
+        font-size: 100px;
+        font-family: monospace;
+        font-weight: bold;
+        padding-top: 200px;
+        padding-left:  60px;
+    }
+
+    .page-404-p1 {
+        padding-top: 20px;
+        padding-left:  65px;
+    }
+
+    .page-404-p {
+        padding-left:  65px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 20px;
+        padding-left:  90px;
+    }
+
+
+
+
+
+}
+
+/*2560*/
+@media only screen and (min-width: 2560px) and (max-width: 2560px) {
+    /*seção 1*/
+
+    .page-404 {
+        background-image: url("page-404-lidere-360-ads.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .page-404-title {
+        font-size: 150px;
+        font-weight: bold;
+        padding-top: 160px;
+        padding-left:  60px;
+    }
+
+    .page-404-subtitle {
+        font-size: 300px;
+        font-family: monospace;
+        font-weight: bold;
+        padding-top: 60px;
+        padding-left:  60px;
+    }
+
+    .page-404-p1 {
+        padding-top: 20px;
+        padding-left:  65px;
+        font-size: 60px;
+
+    }
+
+    .page-404-p {
+        padding-left:  65px;
+        font-size: 60px;
+    }
+
+    .page-404-p2 {
+        font-family: monospace;
+        font-size: 100px;
+        padding-left:  90px;
+    }
+
+}

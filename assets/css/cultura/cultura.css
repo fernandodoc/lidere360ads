@@ -1,0 +1,2205 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .sec-1-pilares-container {
+      background-color: #FFFFFF;
+      padding-top: 10px;
+      padding-bottom: 80px;
+      border-top: 1px solid #000000;
+    }
+
+    .bi-instagram,
+    .bi-whatsapp,
+    .bi-facebook {
+     padding-right: 5px;
+    }
+  
+    .sec-1-pilares-container2 {
+      padding-top: 20px;
+    }
+  
+    .sec-1-pilares-title {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 22px;
+      color: rgb(0, 0, 0);
+      padding-left: 25px;
+      padding-bottom: 20px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-subtitle {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: #c9c9c9;
+      padding-left: 30px;
+      padding-top: 30px;
+      /*padding-bottom: 15px;*/
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-1 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2ba1d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n1 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-1 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-2 {
+      /*width: 340px;*/
+      height: 470px;
+      background: #e4f7ff;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n2 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-2 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-3 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fff0cb;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n3 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-3 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-4 {
+      /*width: 340px;*/
+      height: 510px;
+      background: #ff851c;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n4 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-4 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-5 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2c6133;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n5 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-5 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-6 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #e2f0d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n6 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-6 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-7 {
+      /*width: 340px;*/
+      height: 470px;
+      background: #fbd8da;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n7 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-7 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-8 {
+      /*width: 340px;*/
+      height: 470px;
+      background: #f26d78;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n8 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-8 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-9 {
+      /*width: 340px;*/
+      height: 510px;
+      background: #6e717d;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n9 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-9 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 30px 45px 45px 45px;
+    }
+  
+    .sec-1-pilares-10 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f4f5fc;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n10 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-10 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 30px 45px 45px 45px;
+    }
+  }
+  
+  /*375*/
+  @media only screen and (min-width: 375px) and (max-width: 425px) {
+    .sec-1-pilares-container {
+      background-color: #FFFFFF;
+      padding-top: 20px;
+      padding-bottom: 80px;
+      border-top: 1px solid #000000;
+    }
+  
+    .sec-1-pilares-container2 {
+      padding-top: 20px;
+    }
+  
+    .sec-1-pilares-title {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 26px;
+      color: rgb(0, 0, 0);
+      padding-left: 25px;
+      padding-bottom: 20px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-subtitle {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: #c9c9c9;
+      padding-left: 30px;
+      padding-top: 30px;
+      /*padding-bottom: 15px;*/
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-1 {
+      /*width: 340px;*/
+      height: 460px;
+      background: #2ba1d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n1 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-1 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-2 {
+      /*width: 340px;*/
+      height: 490px;
+      background: #e4f7ff;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n2 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-2 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-3 {
+      /*width: 340px;*/
+      height: 470px;
+      background: #fff0cb;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n3 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-3 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-4 {
+      /*width: 340px;*/
+      height: 520px;
+      background: #ff851c;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n4 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-4 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-5 {
+      /*width: 340px;*/
+      height: 470px;
+      background: #2c6133;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n5 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-5 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-6 {
+      /*width: 340px;*/
+      height: 460px;
+      background: #e2f0d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n6 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-6 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-7 {
+      /*width: 340px;*/
+      height: 490px;
+      background: #fbd8da;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n7 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-7 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-8 {
+      /*width: 340px;*/
+      height: 490px;
+      background: #f26d78;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n8 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-8 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-9 {
+      /*width: 340px;*/
+      height: 520px;
+      background: #6e717d;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n9 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-9 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-10 {
+      /*width: 340px;*/
+      height: 470px;
+      background: #f4f5fc;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n10 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-10 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  }
+  
+  /*425*/
+  @media only screen and (min-width: 425px) and (max-width: 768px) {
+    .sec-1-pilares-container {
+      background-color: #FFFFFF;
+      padding-top: 10px;
+      padding-bottom: 80px;
+      border-top: 1px solid #000000;
+    }
+  
+    .sec-1-pilares-container2 {
+      padding-top: 25px;
+    }
+  
+    .sec-1-pilares-title {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 32px;
+      color: rgb(0, 0, 0);
+      padding-left: 25px;
+      padding-bottom: 30px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-subtitle {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: #c9c9c9;
+      padding-left: 30px;
+      padding-top: 30px;
+      /*padding-bottom: 15px;*/
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-1 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2ba1d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n1 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-1 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-2 {
+      /*width: 340px;*/
+      height: 480px;
+      background: #e4f7ff;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n2 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-2 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-3 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fff0cb;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n3 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-3 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-4 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #ff851c;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n4 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-4 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-5 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2c6133;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n5 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-5 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-6 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #e2f0d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n6 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-6 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-7 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fbd8da;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n7 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-7 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-8 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f26d78;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n8 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-8 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-9 {
+      /*width: 340px;*/
+      height: 490px;
+      background: #6e717d;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n9 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-9 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-10 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f4f5fc;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n10 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-10 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  }
+  
+  /*768*/
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sec-1-pilares-container {
+      background-color: #FFFFFF;
+      padding-top: 20px;
+      padding-bottom: 80px;
+      border-top: 1px solid #000000;
+    }
+  
+    .sec-1-pilares-container2 {
+      padding-top: 20px;
+    }
+  
+    .sec-1-pilares-title {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 32px;
+      color: rgb(8, 8, 8);
+      padding-left: 25px;
+      padding-bottom: 30px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-subtitle {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: #c9c9c9;
+      padding-left: 30px;
+      padding-top: 30px;
+      /*padding-bottom: 15px;*/
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-1 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2ba1d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n1 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-1 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-2 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #e4f7ff;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n2 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-2 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-3 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fff0cb;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n3 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-3 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-4 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #ff851c;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n4 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-4 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-5 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2c6133;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n5 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-5 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-6 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #e2f0d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n6 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-6 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-7 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fbd8da;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n7 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-7 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-8 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f26d78;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n8 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-8 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-9 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #6e717d;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n9 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-9 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-10 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f4f5fc;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n10 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-10 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  }
+  
+  /*1024*/
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .sec-1-pilares-container {
+      padding-top: 20px;
+      padding-bottom: 80px;
+      background-color: #FFFFFF;
+    }
+  
+    .sec-1-pilares-container2 {
+      padding-top: 20px;
+    }
+  
+    .sec-1-pilares-title {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: rgb(24, 23, 23);
+      padding-left: 30px;
+      padding-bottom: 30px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-subtitle {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: #c9c9c9;
+      padding-left: 30px;
+      padding-top: 30px;
+      /*padding-bottom: 15px;*/
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-1 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2ba1d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n1 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+      
+    }
+  
+    .sec-1-pilares-descript-1 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-2 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #e4f7ff;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n2 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-2 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px 45px 72px 45px;
+    }
+  
+    .sec-1-pilares-3 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fff0cb;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n3 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-3 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-4 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #ff851c;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n4 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-4 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-5 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #2c6133;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n5 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-5 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-6 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #e2f0d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n6 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-6 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-7 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #fbd8da;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n7 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-7 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-8 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f26d78;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n8 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-8 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-9 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #6e717d;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n9 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-9 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-10 {
+      /*width: 340px;*/
+      height: 450px;
+      background: #f4f5fc;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n10 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-10 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  }
+  
+  /*1440*/
+  @media only screen and (min-width: 1440px) and (max-width: 2560px) {
+    .sec-1-pilares-container {
+      background-color: #FFFFFF;
+      padding-top: 40px;
+      padding-bottom: 80px;
+    }
+  
+    .sec-1-pilares-container2 {
+      padding-top: 40px;
+    }
+  
+    .sec-1-pilares-title {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: rgb(10, 10, 10);
+      padding-left: 30px;
+      padding-bottom: 40px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-subtitle {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-weight: 700;
+      font-size: 42px;
+      color: #c9c9c9;
+      padding-left: 30px;
+      padding-top: 30px;
+      /*padding-bottom: 15px;*/
+      text-transform: uppercase;
+    }
+  
+    .sec-1-pilares-1 {
+      /*width: 340px;*/
+      height: 420px;
+      background: #2ba1d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n1 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-1 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-2 {
+      /*width: 340px;*/
+      height: 420px;
+      background: #e4f7ff;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n2 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-2 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-3 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #fff0cb;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n3 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-3 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-4 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #ff851c;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n4 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-4 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-5 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #2c6133;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n5 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-5 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-6 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #e2f0d3;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n6 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-6 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-7 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #fbd8da;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n7 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-7 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-8 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #f26d78;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n8 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-8 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-9 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #6e717d;
+      border-radius: 25px 25px 25px 25px;
+      color: #f5f5f5;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n9 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #f5f5f5;
+    }
+  
+    .sec-1-pilares-descript-9 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #f5f5f5;
+      padding: 45px;
+    }
+  
+    .sec-1-pilares-10 {
+      /*width: 340px;*/
+      /*height: 420px;*/
+      background: #f4f5fc;
+      border-radius: 25px 25px 25px 25px;
+      color: #5a5858;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .sec-1-pilares-n10 {
+      padding-left: 50px;
+      padding-top: 60px;
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 52px;
+      color: #5a5858;
+    }
+  
+    .sec-1-pilares-descript-10 {
+      font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: right;
+      line-height: 35px;
+      color: #5a5858;
+      padding: 45px;
+    }
+  }
+  

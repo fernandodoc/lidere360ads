@@ -1,0 +1,674 @@
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  body {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+  }
+
+  .rodape-responsivo {
+    background-color: #000000;
+    color: #d9d9d9;
+    height: 550px;
+  }
+
+  #nossos-servicos-title-linha {
+    /*border: 2px solid #dcd8d8;*/
+    padding: 30px 0 0 30px;
+  }
+
+  #servicos-title {
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  #servicos-div-linha {
+    border-top: 2px solid #d9d9d9;
+    margin-left: 0;
+  }
+
+  .rodape-servicos-responsivo {
+    /*border: 2px solid #f74d4d;*/
+    padding-top: 16px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item-lista {
+    font-size: 18px;
+    padding-bottom: 0;
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  /* rodapé redes sociais */
+  .rodape-redes-sociais-responsivo {
+    padding-right: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 25px;
+  }
+
+  .rodape-redes-sociais-responsivo-item {
+    list-style: none;
+    font-style: italic;
+    color: #ff9235;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .rodape-responsivo-email-telefone {
+    /*border: 2px solid #2BA1D3;*/
+    padding-top: 0;
+  }
+
+  .rodape-email-responsivo-item,
+  .rodape-telefone-responsivo-item {
+    list-style: none;
+    color: #d9d9d9;
+    /*border: 2px solid #e3f74d;*/
+  }
+
+  .rodape-email-responsivo-subitem {
+    color: #2ba1d3;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+
+  .bi-envelope-paper,
+  .bi-phone-flip {
+    color: #2ba1d3;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .rodape-endereco-responsivo {
+    /*border: 2px solid #858585;*/
+    padding-left: 10px;
+    color: #d9d9d9;
+    padding-top: 0;
+  }
+
+  .navbar-text {
+    color: #6f6d6d;
+    background-color: #000000;
+    padding-left: 30px;
+  }
+}
+
+/*375*/
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  body {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+  }
+
+  .rodape-responsivo {
+    background-color: #000000;
+    color: #d9d9d9;
+    height: 550px;
+  }
+
+  #nossos-servicos-title-linha {
+    /*border: 2px solid #dcd8d8;*/
+    padding: 30px 0 0 30px;
+  }
+
+  #servicos-title {
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  #servicos-div-linha {
+    border-top: 2px solid #d9d9d9;
+    margin-left: 0;
+  }
+
+  .rodape-servicos-responsivo {
+    /*border: 2px solid #f74d4d;*/
+    padding-top: 16px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item-lista {
+    font-size: 18px;
+    padding-bottom: 0;
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  /* rodapé redes sociais */
+  .rodape-redes-sociais-responsivo {
+    padding-right: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 25px;
+  }
+
+  .rodape-redes-sociais-responsivo-item {
+    list-style: none;
+    font-style: italic;
+    color: #ff9235;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .rodape-responsivo-email-telefone {
+    /*border: 2px solid #2BA1D3;*/
+    padding-top: 0;
+  }
+
+  .rodape-email-responsivo-item,
+  .rodape-telefone-responsivo-item {
+    list-style: none;
+    color: #d9d9d9;
+    /*border: 2px solid #e3f74d;*/
+  }
+
+  .rodape-email-responsivo-subitem {
+    color: #2ba1d3;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+
+  .bi-envelope-paper,
+  .bi-phone-flip {
+    color: #2ba1d3;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .rodape-endereco-responsivo {
+    /*border: 2px solid #858585;*/
+    padding-left: 20px;
+    color: #d9d9d9;
+    padding-top: 0;
+  }
+
+  .navbar-text {
+    color: #6f6d6d;
+    background-color: #000000;
+    padding-left: 30px;
+  }
+}
+
+/*425*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+  }
+
+  .rodape-responsivo {
+    background-color: #000000;
+    color: #d9d9d9;
+    height: 550px;
+  }
+
+  #nossos-servicos-title-linha {
+    /*border: 2px solid #dcd8d8;*/
+    padding: 30px 0 0 30px;
+  }
+
+  #servicos-title {
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  #servicos-div-linha {
+    border-top: 2px solid #d9d9d9;
+    margin-left: 0;
+  }
+
+  .rodape-servicos-responsivo {
+    /*border: 2px solid #f74d4d;*/
+    padding-top: 16px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item-lista {
+    font-size: 18px;
+    padding-bottom: 0;
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  /* rodapé redes sociais */
+  .rodape-redes-sociais-responsivo {
+    padding-right: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 25px;
+  }
+
+  .rodape-redes-sociais-responsivo-item {
+    list-style: none;
+    font-style: italic;
+    color: #ff9235;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .rodape-responsivo-email-telefone {
+    /*border: 2px solid #2BA1D3;*/
+    padding-top: 0;
+  }
+
+  .rodape-email-responsivo-item,
+  .rodape-telefone-responsivo-item {
+    list-style: none;
+    color: #d9d9d9;
+    /*border: 2px solid #e3f74d;*/
+  }
+
+  .rodape-email-responsivo-subitem {
+    color: #2ba1d3;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+
+  .bi-envelope-paper,
+  .bi-phone-flip {
+    color: #2ba1d3;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .rodape-endereco-responsivo {
+    /*border: 2px solid #858585;*/
+    padding-left: 30px;
+    color: #d9d9d9;
+    padding-top: 0;
+  }
+
+  .navbar-text {
+    color: #6f6d6d;
+    background-color: #000000;
+    padding-left: 30px;
+  }
+}
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+  }
+
+  .rodape-responsivo {
+    background-color: #000000;
+    color: #d9d9d9;
+    height: 109vh;
+  }
+
+  #nossos-servicos-title-linha {
+    /*border: 2px solid #dcd8d8;*/
+    padding: 30px 0 0 30px;
+  }
+
+  #servicos-title {
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  #servicos-div-linha {
+    border-top: 2px solid #d9d9d9;
+    margin-left: 0;
+  }
+
+  .rodape-servicos-responsivo {
+    /*border: 2px solid #f74d4d;*/
+    padding-top: 16px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item-lista {
+    font-size: 18px;
+    padding-bottom: 0;
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  /* rodapé redes sociais */
+  .rodape-redes-sociais-responsivo {
+    padding-right: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 25px;
+  }
+
+  .rodape-redes-sociais-responsivo-item {
+    list-style: none;
+    font-style: italic;
+    color: #ff9235;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .rodape-responsivo-email-telefone {
+    /*border: 2px solid #2BA1D3;*/
+    padding-top: 0;
+  }
+
+  .rodape-email-responsivo-item,
+  .rodape-telefone-responsivo-item {
+    list-style: none;
+    color: #d9d9d9;
+    /*border: 2px solid #e3f74d;*/
+  }
+
+  .rodape-email-responsivo-subitem {
+    color: #2ba1d3;
+    text-decoration: none;
+  }
+
+  .bi-envelope-paper,
+  .bi-phone-flip {
+    color: #2ba1d3;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .rodape-endereco-responsivo {
+    /*border: 2px solid #858585;*/
+    padding-left: 30px;
+    color: #d9d9d9;
+    padding-top: 0;
+  }
+
+  .navbar-text {
+    color: #6f6d6d;
+    background-color: #000000;
+    padding-left: 30px;
+    margin-bottom: none;
+  }
+}
+
+/*1024*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+  }
+
+  .rodape-responsivo {
+    background-color: #000000;
+    color: #d9d9d9;
+    height: 70vh;
+  }
+
+  #nossos-servicos-title-linha {
+    /*border: 2px solid #dcd8d8;*/
+    padding: 30px 0 0 30px;
+  }
+
+  #servicos-title {
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  #servicos-div-linha {
+    border-top: 2px solid #d9d9d9;
+    margin-left: 0;
+  }
+
+  .rodape-servicos-responsivo {
+    /*border: 2px solid #f74d4d;*/
+    padding-top: 16px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item {
+    list-style: none;
+    font-size: 18px;
+    /*padding-bottom: 5px;*/
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item-lista {
+    font-size: 18px;
+    /*padding-bottom: 0;*/
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  /* rodapé redes sociais */
+  .rodape-redes-sociais-responsivo {
+    padding-right: 12px;
+    /*display: flex;
+      justify-content: flex-end;*/
+    text-align: right;
+    padding-top: 40px;
+    /*padding-bottom: 40px;*/
+    margin-right: 25px;
+    /*display: inline;*/
+  }
+
+  .rodape-redes-sociais-responsivo-item {
+    list-style: none;
+    font-style: italic;
+    color: #ff9235;
+    /*margin-bottom: 10px;*/
+    font-size: 16px;
+    display: inline;
+    margin-inline: 10px;
+    cursor: pointer;
+  }
+
+  .rodape-redes-sociais-responsivo-item:hover {
+    color: #6f6d6d;
+    text-decoration: underline;
+  }
+
+  .rodape-responsivo-email-telefone {
+    /*border: 2px solid #2BA1D3;*/
+    padding-top: 0;
+  }
+
+  .rodape-email-responsivo-item,
+  .rodape-telefone-responsivo-item {
+    list-style: none;
+    color: #d9d9d9;
+    font-size: 20px;
+    /*border: 2px solid #e3f74d;*/
+  }
+
+  .rodape-email-responsivo-subitem {
+    color: #2ba1d3;
+    text-decoration: none;
+  }
+
+  .bi-envelope-paper,
+  .bi-phone-flip {
+    color: #2ba1d3;
+    /*font-size: 12px;*/
+    margin-right: 0;
+  }
+
+  .rodape-endereco-responsivo {
+    /*border: 2px solid #858585;*/
+    padding-left: 30px;
+    color: #d9d9d9;
+    padding-top: 0;
+  }
+
+  .rodape-responsivo-lista {
+    padding-left: 30px;
+  }
+
+  .navbar-text {
+    color: #6f6d6d;
+    padding-left: 30px;
+    background-color: #000000;
+    padding-top: 85px;
+  }
+}
+
+/*1440*/
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+  body {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+  }
+
+  .rodape-responsivo {
+    background-color: #000000;
+    color: #d9d9d9;
+    height: 80vh;
+  }
+
+  #nossos-servicos-title-linha {
+    padding-left: 0;
+  }
+
+  #servicos-div-linha {
+    /*border-top: 5px solid #d9d9d9;*/
+    padding: 30px 0 0 0;
+    /*margin-right: 1156px;*/
+    width: 275px;
+    height: 5px;
+  }
+
+  #servicos-title {
+    color: #d9d9d9;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding: 10px 0 0 30px;
+  }
+
+  #servicos-div-linha {
+    border-top: 5px solid #d9d9d9;
+  }
+
+  .rodape-servicos-responsivo {
+    /*border: 2px solid #f74d4d;*/
+    padding-top: none;
+  }
+
+  .rodape-responsivo-lista {
+    padding-top: 20px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .rodape-nossos-servicos-responsivo-menu-item-lista {
+    font-size: 22px;
+    padding-bottom: 0;
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  /* rodapé redes sociais */
+  .rodape-redes-sociais-responsivo {
+    padding-right: 12px;
+    /*display: flex;
+      justify-content: flex-end;*/
+    text-align: right;
+    padding-top: 10px;
+    /*padding-bottom: 20px;*/
+    margin-right: 25px;
+    /*display: inline;*/
+  }
+
+  .rodape-redes-sociais-responsivo-item {
+    list-style: none;
+    font-style: italic;
+    color: #ff9235;
+    /*margin-bottom: 10px;*/
+    font-size: 16px;
+    display: block;
+    text-align: left;
+
+    margin-inline: 10px;
+    cursor: pointer;
+    border-left: 2px solid #ff9235;
+    padding-left: 10px;
+  }
+
+  .rodape-redes-sociais-responsivo-item:hover {
+    color: #6f6d6d;
+    text-decoration: underline;
+  }
+
+  .rodape-responsivo-email-telefone {
+    /*border: 2px solid #2BA1D3;*/
+    padding-top: 0;
+  }
+
+  .rodape-email-responsivo-item,
+  .rodape-telefone-responsivo-item {
+    list-style: none;
+    color: #d9d9d9;
+    /*border: 2px solid #e3f74d;*/
+  }
+
+  .rodape-email-responsivo-subitem {
+    color: #2ba1d3;
+    text-decoration: none;
+  }
+
+  .bi-envelope-paper,
+  .bi-phone-flip {
+    color: #2ba1d3;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .rodape-endereco-responsivo {
+    /*border: 2px solid #858585;*/
+    padding-left: 30px;
+    color: #d9d9d9;
+    padding-top: 0;
+  }
+
+  .navbar-text {
+    color: #6f6d6d;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+}

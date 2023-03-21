@@ -1,0 +1,909 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  /* seção 1 */
+  .bg-img-audiovisual-sec-one {
+    background-image: url("bg-audiovisual-sec-1-320-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+  }
+
+  .audiovisual-one-container {
+    text-align: center;
+    padding-top: 320px;
+  }
+
+  .audiovisual-one-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0 40px;
+  }
+
+  .audiovisual-one-title2 {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-weight: normal;
+    padding: 0 60px;
+  }
+
+  /* seção 2*/
+  .bg-img-audiovisual-sec-two {
+    background-image: url("bg-audiovisual-sec-2-425-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+  }
+
+  .audiovisual-two-title {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    padding: 60px 40px 0 30px;
+  }
+
+  .audiovisual-two-p {
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    line-height: 1.3;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 55px 70px 30px;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-two-p2 {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    padding: 20px 0 0 30px;
+  }
+
+  .audiovisual-two-p3 {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: normal;
+    padding: 10px 40px 0 30px;
+  }
+
+  /* seção 3*/
+  .bg-img-audiovisual-sec-three {
+    background-image: url("bg-audiovisual-sec-3-320-700.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /*height: 100vh;*/
+    height: 750px;
+  }
+
+  .audiovisual-three-title {
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    padding: 60px 40px 10px 0;
+    text-align: right;
+    font-style: italic;
+  }
+
+  .audiovisual-three-p {
+    font-size: 18px;
+    color: black;
+    padding: 0 40px 0 100px;
+    text-align: right;
+    margin-left: 20px;
+  }
+
+  .audiovisual-three-cp {
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+  }
+
+  .audiovisual-three-p2 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    margin-top: 40px;
+    padding-left: 30px;
+  }
+
+  .audiovisual-three-p3 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 0 30px;
+  }
+
+  .audiovisual-three-p4 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0 30px 0 26px;
+  }
+}
+
+/*375*/
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  /* seção 1 */
+  .bg-img-audiovisual-sec-one {
+    background-image: url("bg-audiovisual-sec-1-375-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+  }
+
+  .audiovisual-one-container {
+    text-align: center;
+  }
+
+  .audiovisual-one-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 320px 30px 0;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-one-title2 {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-weight: normal;
+    padding: 0 20px 0;
+  }
+
+  /* seção 2*/
+  .bg-img-audiovisual-sec-two {
+    background-image: url("bg-audiovisual-sec-2-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .audiovisual-two-title {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    padding: 60px 0 0 40px;
+  }
+
+  .audiovisual-two-p {
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 88px 50px 40px;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-two-p2 {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 0 0 40px;
+  }
+
+  .audiovisual-two-p3 {
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: normal;
+    padding: 5px 70px 0 40px;
+  }
+
+  /* seção 3*/
+  .bg-img-audiovisual-sec-three {
+    background-image: url("bg-audiovisual-sec-3-375-700.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /*height: 100vh;*/
+    height: 750px;
+  }
+
+  .audiovisual-three-title {
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    padding: 60px 40px 0 160px;
+    text-align: right;
+    font-style: italic;
+  }
+
+  .audiovisual-three-p {
+    font-size: 18px;
+    color: black;
+    /*padding: 0 0 0 60px;*/
+    padding: 5px 40px 0 180px;
+    text-align: right;
+    margin-left: 20px;
+  }
+
+  .audiovisual-three-cp {
+    /*padding: 150px 10px 10px 0;*/
+  }
+
+  .audiovisual-three-p2 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 0 40px;
+  }
+
+  .audiovisual-three-p3 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 0 40px;
+  }
+
+  .audiovisual-three-p4 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0 0 0 36px;
+  }
+}
+
+/*425*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  /* seção 1 */
+  .bg-img-audiovisual-sec-one {
+    background-image: url("bg-audiovisual-sec-1-425-550-v3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+  }
+
+  .audiovisual-one-container {
+    text-align: center;
+  }
+
+  .audiovisual-one-title {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 300px 40px 0;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-one-title2 {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-weight: normal;
+    padding: 0 40px 0;
+  }
+
+  /* seção 2*/
+  .bg-img-audiovisual-sec-two {
+    background-image: url("bg-audiovisual-sec-2-425-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .audiovisual-two-title {
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    padding: 80px 0 0 40px;
+  }
+
+  .audiovisual-two-p {
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 85px 30px 40px;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-two-p2 {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    padding: 40px 0 0 40px;
+  }
+
+  .audiovisual-two-p3 {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: normal;
+    padding: 10px 0 0 40px;
+  }
+
+  /* seção 3*/
+  .bg-img-audiovisual-sec-three {
+    background-image: url("bg-audiovisual-sec-3-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    /*height: 100vh;*/
+    height: 700px;
+  }
+
+  .audiovisual-three-title {
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    padding: 80px 40px 0 160px;
+    text-align: right;
+    font-style: italic;
+  }
+
+  .audiovisual-three-p {
+    font-size: 18px;
+    color: black;
+    /*padding: 0 0 0 60px;*/
+    padding: 5px 40px 0 180px;
+    text-align: right;
+    margin-left: 20px;
+  }
+
+  .audiovisual-three-cp {
+    /*padding: 150px 10px 10px 0;*/
+  }
+
+  .audiovisual-three-p2 {
+    color: black;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 0 40px;
+  }
+
+  .audiovisual-three-p3 {
+    color: black;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 0 40px;
+  }
+
+  .audiovisual-three-p4 {
+    color: black;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0 36px;
+  }
+}
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*seção 1*/
+  .img-audiovisual {
+    backdrop-filter: blur(1px);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+
+  .img-audiovisual-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .img-audiovisual-subtitle {
+    font-size: 1.25rem;
+  }
+  /* seção 1 */
+  .bg-img-audiovisual-sec-one {
+    background-image: url("bg-audiovisual-sec-1-1440-960-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .audiovisual-one-container {
+    text-align: center;
+    padding-top: 350px;
+  }
+
+  .audiovisual-one-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-one-title2 {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0px 110px 0 110px;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  /* seção 2*/
+  .bg-img-audiovisual-sec-two {
+    background-image: url("bg-audiovisual-sec-2-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .audiovisual-two-title {
+    font-size: 26px;
+    color: #ffffff;
+    padding: 70px 0 0 60px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .audiovisual-two-p {
+    font-size: 32px;
+    color: #ffffff;
+    padding-left: 60px;
+    /*padding-top: 5px;*/
+    line-height: 1.3;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 60px;
+    font-style: normal;
+    /*text-transform: none;*/
+  }
+
+  .audiovisual-two-p2 {
+    font-size: 22px;
+    color: #ffffff;
+    padding: 0 250px 0 60px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    /*text-transform: lowercase;*/
+  }
+
+  .audiovisual-two-p3 {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 290px 0 60px;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  /* seção 3*/
+  .bg-img-audiovisual-sec-three {
+    background-image: url("bg-audiovisual-sec-3-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*height: 100vh;*/
+    height: 700px;
+  }
+
+  .audiovisual-three-title {
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    padding: 80px 0 10px 40px;
+    text-align: left;
+  }
+
+  .audiovisual-three-p {
+    font-size: 18px;
+    color: black;
+    padding: 0 0 0 40px;
+    text-align: left;
+  }
+
+  .audiovisual-three-cp {
+    padding: 150px 10px 10px 0;
+  }
+
+  .audiovisual-three-p2 {
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 400px;
+    border-radius: 5px;
+    padding-right: 40px;
+  }
+
+  .audiovisual-three-p3 {
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 350px;
+    border-radius: 5px;
+    padding-right: 40px;
+  }
+
+  .audiovisual-three-p4 {
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    padding-left: 280px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-right: 40px;
+  }
+}
+
+/*1024*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  /*seção 1*/
+  .img-audiovisual {
+    backdrop-filter: blur(7px);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+
+  .img-audiovisual-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .img-audiovisual-subtitle {
+    font-size: 1.5rem;
+  }
+  /* seção 1 */
+  .bg-img-audiovisual-sec-one {
+    background-image: url("bg-audiovisual-sec-1-1440-960-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .audiovisual-one-container {
+    text-align: center;
+    padding-top: 470px;
+  }
+
+  .audiovisual-one-title {
+    font-size: 42px;
+    color: #ffffff;
+    padding: 0 80px;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-one-title2 {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 0px 110px;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  /* seção 2*/
+  .bg-img-audiovisual-sec-two {
+    background-image: url("bg-audiovisual-sec-2-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .audiovisual-two-title {
+    font-size: 32px;
+    color: #ffffff;
+    padding: 100px 0 0 60px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .audiovisual-two-p {
+    font-size: 48px;
+    color: #ffffff;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    line-height: 1.3;
+    text-align: left;
+    /*font-weight: bold;*/
+    text-transform: uppercase;
+  }
+
+  .audiovisual-two-p2 {
+    font-size: 28px;
+    color: #ffffff;
+    padding: 100px 250px 0 60px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .audiovisual-two-p3 {
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px 450px 0 60px;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  /* seção 3*/
+  .bg-img-audiovisual-sec-three {
+    background-image: url("bg-audiovisual-sec-3-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .audiovisual-three-title {
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+    padding: 80px 0 15px 60px;
+  }
+
+  .audiovisual-three-p {
+    font-size: 22px;
+    color: black;
+    padding: 5px 0 0 100px;
+  }
+
+  .audiovisual-three-cp {
+    padding: 150px 10px 0 0;
+  }
+
+  .audiovisual-three-p2 {
+    color: black;
+    text-align: right;
+    font-size: 26px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 560px;
+    border-radius: 5px;
+    padding-right: 60px;
+  }
+
+  .audiovisual-three-p3 {
+    color: black;
+    text-align: right;
+    font-size: 26px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 490px;
+    border-radius: 5px;
+    padding-right: 60px;
+  }
+
+  .audiovisual-three-p4 {
+    color: black;
+    text-align: right;
+    font-size: 26px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    /*padding-left: 300px;*/
+    margin-left: 20px;
+    border-radius: 5px;
+    padding-right: 60px;
+  }
+}
+
+/*1440*/
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+  /*seção 1 tela pequena*/
+  .img-audiovisual {
+    backdrop-filter: blur(7px);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+
+  .img-audiovisual-title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .img-audiovisual-subtitle {
+    font-size: 2.25rem;
+  }
+  /* seção 1 */
+  .bg-img-audiovisual-sec-one {
+    background-image: url("bg-audiovisual-sec-1-1440-960-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+  }
+
+  .audiovisual-one-container {
+    text-align: center;
+    padding-top: 550px;
+  }
+
+  .audiovisual-one-title {
+    font-size: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 0 120px;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-one-title2 {
+    font-size: 42px;
+    color: #ffffff;
+    padding: 0px 110px;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  /* seção 2*/
+  .bg-img-audiovisual-sec-two {
+    background-image: url("bg-audiovisual-sec-2-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .audiovisual-two-title {
+    font-size: 36px;
+    color: #ffffff;
+    padding: 100px 0 0 60px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .audiovisual-two-p {
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .audiovisual-two-p2 {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 100px 250px 0 60px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .audiovisual-two-p3 {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px 650px 0 60px;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  /* seção 3*/
+  .bg-img-audiovisual-sec-three {
+    background-image: url("bg-audiovisual-sec-3-1440-960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+  }
+
+  .audiovisual-three-title {
+    font-size: 52px;
+    color: black;
+    font-weight: 700;
+    padding: 110px 0 15px 60px;
+  }
+
+  .audiovisual-three-p {
+    font-size: 32px;
+    color: black;
+    padding: 5px 0 0 100px;
+  }
+
+  .audiovisual-three-cp {
+    padding-right: 10px;
+    padding-top: 180px;
+  }
+
+  .audiovisual-three-p2 {
+    color: black;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    margin-left: 560px;
+    border-radius: 5px;
+    padding-right: 60px;
+  }
+
+  .audiovisual-three-p3 {
+    color: black;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    /*margin-left: 490px;*/
+    border-radius: 5px;
+    padding-right: 60px;
+  }
+
+  .audiovisual-three-p4 {
+    color: black;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 700;
+    backdrop-filter: blur(5px);
+    /*padding-left: 100px;*/
+    margin-left: 20px;
+    border-radius: 5px;
+    padding-right: 60px;
+  }
+}

@@ -1,0 +1,1767 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  /* seção um - astronauta - tudo em um só lugar */
+  /*seção 1*/
+  .astronauta {
+    background-image: url("astronauta-lidere-360-ads-320-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+  }
+
+  .astronauta-title,
+  .astronauta-subtitle {
+    text-align: center;
+  }
+
+  .astronauta-title {
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .astronauta-subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.3;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  /* seção dois - começando do zero ou escalonando */
+  .secao-dois {
+    /*padding: 60px 120px 0 120px;*/
+    background-image: url("sec-2-escalonando-lidere-360-ads-1440-600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 510px;
+    /*opacity: 0.8;*/
+    padding: 60px 30px;
+  }
+
+  .section-two-title {
+    color: #d9d9d9;
+    /*padding-top: 30px;*/
+    font-size: 32px;
+  }
+
+  .section-two-subtitle {
+    color: #d9d9d9;
+    font-size: 20px;
+    padding: 20px 0 10px 0;
+  }
+
+  #coisas-incriveis {
+    color: #0fdbf2;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .escalonando-btn {
+    background-color: #fab431;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #363f47;
+    font-size: 20px;
+    font-weight: bold;
+    height: 45px;
+    width: 180px;
+  }
+
+  .escalonando-btn:hover {
+    background-color: #2573d9;
+    border: 0.25rem solid #2573d9;
+    color: #ffffff;
+  }
+
+ /*seção 3*/
+ .nossos-servicos-container {
+  background-color: #2ba1d3;
+  /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+  padding: 100px 40px;
+}
+
+.nossos-servicos-title {
+  color:#212529;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.elemento-nossos-servicos {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.elemento-separacao-nossos-servicos {
+  width: 140px;
+  height: 5px;
+  /*background-color: #63676A;*/
+  background-color: #ffffff65;
+}
+
+.service-item {
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+
+}
+
+.web-design {
+  padding-top: 50px;
+}
+
+.card-link {
+text-decoration: none;
+color: #000000;
+}
+
+.img-card:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+/*seção 4*/
+.bi {
+font-size: 24px;
+padding-right: 20px;
+}
+
+.nossos-diferenciais {
+background-image: url("sec-4-nossos-diferenciais-425.webp");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding-bottom: 60px;
+}
+
+.nossos-diferenciais-title {
+padding: 100px 30px 0 30px;
+font-size: 32px;
+font-weight: bold;
+text-transform: uppercase;
+color: #353C42;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+.nossos-diferenciais-elemento-separacao {
+width: 250px;
+height: 4px;
+background-color: #353C42;
+margin-left: 0px;
+}
+
+.nossos-diferenciais-elemento {
+display:flex;
+justify-content: flex-end;
+padding-top: 30px;
+}
+
+.nossos-diferenciais-elemento-separacao-item {
+width: 40px;
+height: 4px;
+background-color: #212529;
+margin-left: 5px;
+}
+
+.diferenciais-container {
+padding: 20px;
+}
+
+.resultados-title, .especialistas-title, .atendimento-title, .planos-title, .all-in-one-title, .beneficios-title {
+font-size: 26px;
+font-weight: bold;
+color: #353C42;
+}
+
+.resultados-p, .especialistas-p, .atendimento-p, .planos-p, .all-in-one-p, .beneficios-p {
+font-size: 18px;
+text-align: justify;
+color: #353C42;
+padding-top: 28px;
+}
+
+.elemento-borda-externa {
+padding-top: 26px;
+}
+
+.resultados, .especialistas, .atendimento, .planos, .all-in-one, .beneficios {
+border-radius: 8px;
+border-radius: 8px;
+border: 3px solid #353C42;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 40px;
+}
+
+.planos, .all-in-one, .beneficios {
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+/*seção 5 */
+.quem-somos-container {
+padding: 60px 30px 100px 30px;
+}
+
+.bg-image-sec-four {
+  background-image: url('sec-5-quem-somos-425-700.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 950px;
+}
+
+.quem-somos-title {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #016A81;
+    -webkit-text-fill-color: #89e3f8;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+    font-size: 32px;
+    opacity: 80%;
+}
+
+.quem-somos-subtitle {
+  color: #016A81;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  /*padding-bottom: 10px;*/
+}
+
+.quem-somos-p {
+  color: #016A81;
+  font-size: 16px;
+  text-align: justify;
+
+}
+
+.quem-somos-p-ita {
+  color: #016A81;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.nome-cargo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 5px;
+  color: #016A81;
+  padding-top: 10px;
+}
+
+.nome {
+  font-weight: 700;
+  color: #016A81;
+  font-size: 17px;
+}
+
+.cargo {
+  font-style: italic;
+  font-size: 16px;
+}
+
+
+
+}
+
+/*375*/
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  /* seção um - astronauta - tudo em um só lugar */
+  /*seção 1*/
+  .astronauta {
+    background-image: url("astronauta-lidere-360-ads-375-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+  }
+
+  .astronauta-title,
+  .astronauta-subtitle {
+    text-align: center;
+  }
+
+  .astronauta-title {
+    font-size: 29px;
+    font-weight: 700;
+    padding-top: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .astronauta-subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* seção dois - começando do zero ou escalonando */
+  .secao-dois {
+    /*padding: 60px 120px 0 120px;*/
+    background-image: url("sec-2-escalonando-lidere-360-ads-1440-600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 590px;
+    padding: 80px 40px;
+  }
+
+  .section-two-title {
+    color: #d9d9d9;
+    /*padding-top: 30px;*/
+    font-size: 36px;
+  }
+
+  .section-two-subtitle {
+    color: #d9d9d9;
+    font-size: 22px;
+    padding: 20px 0 10px 0;
+  }
+
+  #coisas-incriveis {
+    color: #0fdbf2;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .escalonando-btn {
+    background-color: #fab431;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #363f47;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    width: 220px;
+  }
+
+  .escalonando-btn:hover {
+    background-color: #2573d9;
+    border: 0.25rem solid #2573d9;
+    color: #ffffff;
+  }
+
+  /*seção 3*/
+  .nossos-servicos-container {
+    background-color: #2ba1d3;
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    padding: 100px 40px;
+  }
+
+  .nossos-servicos-title {
+    color: #212529;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .elemento-nossos-servicos {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .elemento-separacao-nossos-servicos {
+    width: 140px;
+    height: 5px;
+    /*background-color: #63676A;*/
+    background-color: #ffffff65;
+  }
+
+  .service-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .web-design {
+    padding-top: 50px;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .img-card:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+  /*seção 4*/
+  .bi {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+
+  .nossos-diferenciais {
+    background-image: url("sec-4-nossos-diferenciais-425.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 2000px;*/
+    padding-bottom: 80px;
+  }
+
+  .nossos-diferenciais-title {
+    padding: 100px 30px 0 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353c42;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .nossos-diferenciais-elemento-separacao {
+    width: 312px;
+    height: 4px;
+    background-color: #353c42;
+    margin-left: 0px;
+  }
+
+  .nossos-diferenciais-elemento {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+
+  .nossos-diferenciais-elemento-separacao-item {
+    width: 40px;
+    height: 4px;
+    background-color: #212529;
+    margin-left: 5px;
+  }
+
+  .diferenciais-container {
+    padding: 40px;
+  }
+
+  .resultados-title,
+  .especialistas-title,
+  .atendimento-title,
+  .planos-title,
+  .all-in-one-title,
+  .beneficios-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #353c42;
+  }
+
+  .resultados-p,
+  .especialistas-p,
+  .atendimento-p,
+  .planos-p,
+  .all-in-one-p,
+  .beneficios-p {
+    font-size: 18px;
+    text-align: justify;
+    color: #353c42;
+    padding-top: 28px;
+  }
+
+  .elemento-borda-externa {
+    padding-top: 26px;
+  }
+
+  .resultados,
+  .especialistas,
+  .atendimento,
+  .planos,
+  .all-in-one,
+  .beneficios {
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 3px solid #353c42;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+  }
+
+  .planos,
+  .all-in-one,
+  .beneficios {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  /*seção 5 */
+  .quem-somos-container {
+    padding: 60px 40px 100px 40px;
+  }
+
+  .bg-image-sec-four {
+    background-image: url("sec-5-quem-somos-425-700.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+  }
+
+  .quem-somos-title {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #016a81;
+    -webkit-text-fill-color: #89e3f8;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+    font-size: 32px;
+    opacity: 80%;
+  }
+
+  .quem-somos-subtitle {
+    color: #016a81;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /*padding-bottom: 10px;*/
+  }
+
+  .quem-somos-p {
+    color: #016a81;
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .quem-somos-p-ita {
+    color: #016a81;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .nome-cargo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5px;
+    color: #016a81;
+    /*padding-top: 20px;*/
+  }
+
+  .nome {
+    font-weight: 700;
+    color: #016a81;
+    font-size: 18px;
+  }
+
+  .cargo {
+    font-style: italic;
+    font-size: 16px;
+  }
+}
+
+
+/*425*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  /* seção um - astronauta - tudo em um só lugar */
+  /*seção 1*/
+  .astronauta {
+    background-image: url("astronauta-lidere-360-ads-425-550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .astronauta-title,
+  .astronauta-subtitle {
+    text-align: center;
+  }
+
+  .astronauta-title {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .astronauta-subtitle {
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* seção dois - começando do zero ou escalonando */
+  .secao-dois {
+    /*padding: 60px 120px 0 120px;*/
+    background-image: url("sec-2-escalonando-lidere-360-ads-1440-600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 520px;
+    /*opacity: 0.8;*/
+    padding: 80px 40px;
+  }
+
+  .section-two-title {
+    color: #d9d9d9;
+    /*padding-top: 30px;*/
+    font-size: 36px;
+  }
+
+  .section-two-subtitle {
+    color: #d9d9d9;
+    font-size: 22px;
+    padding: 20px 0 10px 0;
+  }
+
+  #coisas-incriveis {
+    color: #0fdbf2;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .escalonando-btn {
+    background-color: #fab431;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #363f47;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    width: 220px;
+  }
+
+  .escalonando-btn:hover {
+    background-color: #2573d9;
+    border: 0.25rem solid #2573d9;
+    color: #ffffff;
+  }
+
+  /*seção 3*/
+  .nossos-servicos-container {
+    background-color: #2ba1d3;
+    padding: 100px 40px;
+  }
+
+  .nossos-servicos-title {
+    color: #212529;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .elemento-nossos-servicos {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .elemento-separacao-nossos-servicos {
+    width: 140px;
+    height: 5px;
+    /*background-color: #63676A;*/
+    background-color: #ffffff65;
+  }
+
+  .service-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .web-design {
+    padding-top: 60px;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .img-card:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+  /*seção 4*/
+  .bi {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+
+  .nossos-diferenciais {
+    background-image: url("sec-4-nossos-diferenciais-425.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 2000px;*/
+    padding-bottom: 80px;
+  }
+
+  .nossos-diferenciais-title {
+    padding: 100px 30px 0 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353c42;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .nossos-diferenciais-elemento-separacao {
+    width: 310px;
+    height: 4px;
+    background-color: #353c42;
+    margin-left: 0px;
+  }
+
+  .nossos-diferenciais-elemento {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+
+  .nossos-diferenciais-elemento-separacao-item {
+    width: 40px;
+    height: 4px;
+    background-color: #212529;
+    margin-left: 5px;
+  }
+
+  .diferenciais-container {
+    padding: 40px;
+  }
+
+  .resultados-title,
+  .especialistas-title,
+  .atendimento-title,
+  .planos-title,
+  .all-in-one-title,
+  .beneficios-title {
+    font-size: 37px;
+    font-weight: bold;
+    color: #353c42;
+  }
+
+  .resultados-p,
+  .especialistas-p,
+  .atendimento-p,
+  .planos-p,
+  .all-in-one-p,
+  .beneficios-p {
+    font-size: 22px;
+    text-align: justify;
+    color: #353c42;
+    padding-top: 28px;
+  }
+
+  .elemento-borda-externa {
+    padding-top: 26px;
+  }
+
+  .resultados,
+  .especialistas,
+  .atendimento,
+  .planos,
+  .all-in-one,
+  .beneficios {
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 3px solid #353c42;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+  }
+
+  .planos,
+  .all-in-one,
+  .beneficios {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  /*seção 5 */
+  .quem-somos-container {
+    padding: 60px 40px 100px 40px;
+  }
+
+  .bg-image-sec-four {
+    background-image: url("sec-5-quem-somos-425-700.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+  }
+
+  .quem-somos-title {
+    -webkit-text-stroke-width: 0.08rem;
+    -webkit-text-stroke-color: #016a81;
+    -webkit-text-fill-color: #89e3f8;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+    font-size: 38px;
+    opacity: 80%;
+  }
+
+  .quem-somos-subtitle {
+    color: #016a81;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /*padding-bottom: 10px;*/
+  }
+
+  .quem-somos-p {
+    color: #016a81;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .quem-somos-p-ita {
+    color: #016a81;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .nome-cargo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5px;
+    color: #016a81;
+    /*padding-top: 20px;*/
+  }
+
+  .nome {
+    font-weight: 700;
+    color: #016a81;
+    font-size: 18px;
+  }
+
+  .cargo {
+    font-style: italic;
+    font-size: 16px;
+  }
+}
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* seção um - astronauta - tudo em um só lugar */
+  .section-one {
+    background-image: url("astronauta-azul-lidere-360-ads-1440-550-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 105vh;
+    width: 100vw;
+  }
+
+  .section-one-title {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .section-one-subtitle {
+    /*margin: 0;*/
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+
+  /* seção dois - começando do zero ou escalonando */
+  .secao-dois {
+    /*padding: 60px 120px 0 120px;*/
+    background-image: url("sec-2-escalonando-lidere-360-ads-1440-600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 460px;
+    /*opacity: 0.8;*/
+  }
+
+  .section-two-title {
+    color: #d9d9d9;
+    padding: 20px 60px 0;
+    font-size: 34px;
+  }
+
+  .section-two-subtitle {
+    color: #d9d9d9;
+    font-size: 26px;
+    padding: 20px 0 10px;
+  }
+
+  #coisas-incriveis {
+    color: #0fdbf2;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .escalonando-btn {
+    background-color: #fab431;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #363f47;
+    font-size: 23px;
+    font-weight: bold;
+    height: 50px;
+    width: 220px;
+  }
+
+  .escalonando-btn:hover {
+    background-color: #2573d9;
+    border: 0.25rem solid #2573d9;
+    color: #ffffff;
+  }
+
+  /*seção 3*/
+  .nossos-servicos-container {
+    background-color: #2ba1d3;
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    padding: 100px 40px;
+  }
+
+  .nossos-servicos-title {
+    color: #212529;
+    /*font-size: 48px;*/
+    text-align: center;
+  }
+
+  .elemento-nossos-servicos {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .elemento-separacao-nossos-servicos {
+    width: 140px;
+    height: 5px;
+    /*background-color: #63676A;*/
+    background-color: #e4e4e4a1;
+  }
+
+  /*.card-webdesing {
+    padding-bottom: 55px;
+  }
+
+  .card-mkt-digital {
+    padding-bottom: 40px;
+  }*/
+
+  .card-webdesing {
+    padding-bottom: 18px;
+  }
+
+  .service-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  .service-description {
+    font-size: 18px;
+  }
+
+  .web-design {
+    padding-top: 70px;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .img-card:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+  /*seção 4*/
+  .bi {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+
+  .nossos-diferenciais {
+    background-image: url("sec-4-nossos-diferenciais.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 100vh;*/
+    padding-bottom: 100px;
+  }
+
+  .nossos-diferenciais-title {
+    padding: 100px 30px 0 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353c42;
+  }
+
+  .nossos-diferenciais-elemento-separacao {
+    width: 488px;
+    height: 4px;
+    background-color: #353c42;
+    margin-left: 0px;
+  }
+
+  .nossos-diferenciais-elemento {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+
+  .nossos-diferenciais-elemento-separacao-item {
+    width: 40px;
+    height: 4px;
+    background-color: #212529;
+    margin-left: 5px;
+  }
+
+  .diferenciais-container {
+    padding: 40px;
+  }
+
+  .resultados-title,
+  .especialistas-title,
+  .atendimento-title,
+  .planos-title,
+  .all-in-one-title,
+  .beneficios-title {
+    font-size: 37px;
+    font-weight: bold;
+    color: #353c42;
+  }
+
+  .resultados-p,
+  .especialistas-p,
+  .atendimento-p,
+  .planos-p,
+  .all-in-one-p,
+  .beneficios-p {
+    font-size: 26px;
+    text-align: justify;
+    color: #353c42;
+    padding-top: 28px;
+  }
+
+  .elemento-borda-externa {
+    padding-top: 26px;
+  }
+
+  .resultados,
+  .especialistas,
+  .atendimento,
+  .planos,
+  .all-in-one,
+  .beneficios {
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 3px solid #353c42;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+  }
+
+  .planos,
+  .all-in-one,
+  .beneficios {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  /*seção 5 */
+  .quem-somos-container {
+    padding: 60px 80px 100px 60px;
+  }
+
+  .bg-image-sec-four {
+    background-image: url("sec-5-quem-somos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 1200px;
+  }
+
+  .quem-somos-title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #016a81;
+    -webkit-text-fill-color: #89e3f8;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+    font-size: 60px;
+    opacity: 80%;
+  }
+
+  .quem-somos-subtitle {
+    color: #016a81;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .quem-somos-p {
+    color: #016a81;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .quem-somos-p-ita {
+    color: #016a81;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .nome-cargo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5px;
+    color: #016a81;
+    padding-top: 20px;
+  }
+
+  .nome {
+    font-weight: 700;
+    color: #016a81;
+    font-size: 24px;
+  }
+
+  .cargo {
+    font-style: italic;
+    font-size: 18px;
+  }
+}
+
+/*1024*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  /* seção um - astronauta - tudo em um só lugar */
+  .section-one {
+    background-image: url("astronauta-azul-lidere-360-ads-1440-550-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 760px;
+  }
+
+  .section-one-caption {
+    margin-top: 30px;
+  }
+
+  .section-one-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0 8px 0;
+  }
+
+  .section-one-subtitle {
+    margin: 0;
+    font-size: 26px;
+    /*font-weight: bold;*/
+    padding-bottom: 40px;
+  }
+
+  /* seção dois - começando do zero ou escalonando */
+  .secao-dois {
+    background-image: url("sec-2-escalonando-lidere-360-ads-1440-600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 460px;
+  }
+
+  .section-two-title {
+    color: #d9d9d9;
+    padding: 90px 120px 0 120px;
+    font-size: 38px;
+  }
+
+  .section-two-subtitle {
+    color: #d9d9d9;
+    font-size: 26px;
+    padding: 20px 0;
+  }
+
+  #coisas-incriveis {
+    color: #0fdbf2;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .escalonando-btn {
+    background-color: #fab431;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    height: 55px;
+    width: 260px;
+  }
+
+  .escalonando-btn:hover {
+    background-color: #d1921c;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  /* seção três - nossos serviços */
+  .nossos-servicos-container {
+    background-color: #2ba1d3;
+    padding: 100px 40px;
+  }
+
+  .nossos-servicos-title {
+    color: #212529;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .elemento-nossos-servicos {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .elemento-separacao-nossos-servicos {
+    width: 140px;
+    height: 5px;
+    /*background-color: #63676A;*/
+    background-color: #e4e4e4a1;
+  }
+
+  .card-webdesing {
+    padding-bottom: none;
+  }
+
+  .card-mkt-digital {
+    padding-bottom: none;
+  }
+
+  .service-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+  }
+
+  .service-description {
+    font-size: 20px;
+  }
+
+  .web-design {
+    padding-top: 70px;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .card-link:hover {
+    color: #363f47;
+  }
+
+  .img-card:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+  /* seção quatro - nossos diferenciais */
+  .bi {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+
+  .nossos-diferenciais {
+    background-image: url("sec-4-nossos-diferenciais.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 100vh;*/
+    padding-bottom: 100px;
+  }
+
+  .nossos-diferenciais-title {
+    padding: 100px 30px 0 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353c42;
+  }
+
+  .nossos-diferenciais-elemento-separacao {
+    width: 488px;
+    height: 4px;
+    background-color: #353c42;
+    margin-left: 0px;
+  }
+
+  .nossos-diferenciais-elemento {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+
+  .nossos-diferenciais-elemento-separacao-item {
+    width: 40px;
+    height: 4px;
+    background-color: #212529;
+    margin-left: 5px;
+  }
+
+  .diferenciais-container {
+    padding: 40px;
+  }
+
+  .resultados-title,
+  .especialistas-title,
+  .atendimento-title,
+  .planos-title,
+  .all-in-one-title,
+  .beneficios-title {
+    font-size: 37px;
+    font-weight: bold;
+    color: #353c42;
+  }
+
+  .resultados-p,
+  .especialistas-p,
+  .atendimento-p,
+  .planos-p,
+  .all-in-one-p,
+  .beneficios-p {
+    font-size: 26px;
+    text-align: justify;
+    color: #353c42;
+    padding-top: 28px;
+  }
+
+  .elemento-borda-externa {
+    padding-top: 26px;
+  }
+
+  .resultados,
+  .especialistas,
+  .atendimento,
+  .planos,
+  .all-in-one,
+  .beneficios {
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 3px solid #353c42;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+  }
+
+  .planos,
+  .all-in-one,
+  .beneficios {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  /*seção cinco - quem somos */
+  .quem-somos-container {
+    padding: 60px 80px 100px 60px;
+  }
+
+  .bg-image-sec-four {
+    background-image: url("sec-5-quem-somos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+  }
+
+  .quem-somos-title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #016a81;
+    -webkit-text-fill-color: #89e3f8;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+    font-size: 60px;
+    opacity: 80%;
+  }
+
+  .quem-somos-subtitle {
+    color: #016a81;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .quem-somos-p {
+    color: #016a81;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .quem-somos-p-ita {
+    color: #016a81;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .nome-cargo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5px;
+    color: #016a81;
+    padding-top: 20px;
+  }
+
+  .nome {
+    font-weight: 700;
+    color: #016a81;
+    font-size: 24px;
+  }
+
+  .cargo {
+    font-style: italic;
+    font-size: 18px;
+  }
+}
+
+/*1440*/
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+  /* seção um - astronauta - tudo em um só lugar */
+  .section-one {
+    background-image: url("astronauta-azul-lidere-360-ads-1440-550-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 760px;
+  }
+
+  .section-one-caption {
+    margin-top: 30px;
+  }
+
+  .section-one-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0 8px 0;
+  }
+
+  .section-one-subtitle {
+    margin: 0;
+    font-size: 26px;
+    /*font-weight: bold;*/
+    padding-bottom: 40px;
+  }
+
+  /* seção dois - começando do zero ou escalonando */
+  .secao-dois {
+    background-image: url("sec-2-escalonando-lidere-360-ads-1440-600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 460px;
+  }
+
+  .section-two-title {
+    color: #d9d9d9;
+    padding: 90px 320px 0 320px;
+    font-size: 38px;
+  }
+
+  .section-two-subtitle {
+    color: #d9d9d9;
+    font-size: 26px;
+    padding: 20px 0;
+  }
+
+  #coisas-incriveis {
+    color: #0fdbf2;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .escalonando-btn {
+    background-color: #fab431;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    height: 55px;
+    width: 260px;
+  }
+
+  .escalonando-btn:hover {
+    background-color: #d1921c;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  /* seção três - nossos serviços */
+  .nossos-servicos-container {
+    background-color: #2ba1d3;
+    padding: 100px 40px;
+  }
+
+  .nossos-servicos-title {
+    color: #212529;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .elemento-nossos-servicos {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .elemento-separacao-nossos-servicos {
+    width: 140px;
+    height: 5px;
+    /*background-color: #63676A;*/
+    background-color: #e4e4e4a1;
+  }
+
+  .card-webdesing {
+    padding-bottom: none;
+  }
+
+  .card-mkt-digital {
+    padding-bottom: none;
+  }
+
+  .service-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+  }
+
+  .service-description {
+    font-size: 20px;
+  }
+
+  .web-design {
+    padding-top: 70px;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .card-link:hover {
+    color: #363f47;
+  }
+
+  .img-card:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+  /* seção quatro - nossos diferenciais */
+  .bi {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+
+  .nossos-diferenciais {
+    background-image: url("sec-4-nossos-diferenciais.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 100vh;*/
+    padding-bottom: 100px;
+  }
+
+  .nossos-diferenciais-title {
+    padding: 100px 30px 0 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353c42;
+  }
+
+  .nossos-diferenciais-elemento-separacao {
+    width: 488px;
+    height: 4px;
+    background-color: #353c42;
+    margin-left: 0px;
+  }
+
+  .nossos-diferenciais-elemento {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+
+  .nossos-diferenciais-elemento-separacao-item {
+    width: 40px;
+    height: 4px;
+    background-color: #212529;
+    margin-left: 5px;
+  }
+
+  .diferenciais-container {
+    padding: 40px;
+  }
+
+  .resultados-title,
+  .especialistas-title,
+  .atendimento-title,
+  .planos-title,
+  .all-in-one-title,
+  .beneficios-title {
+    font-size: 37px;
+    font-weight: bold;
+    color: #353c42;
+  }
+
+  .resultados-p,
+  .especialistas-p,
+  .atendimento-p,
+  .planos-p,
+  .all-in-one-p,
+  .beneficios-p {
+    font-size: 26px;
+    text-align: justify;
+    color: #353c42;
+    padding-top: 28px;
+  }
+
+  .elemento-borda-externa {
+    padding-top: 26px;
+  }
+
+  .resultados,
+  .especialistas,
+  .atendimento,
+  .planos,
+  .all-in-one,
+  .beneficios {
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 3px solid #353c42;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+  }
+
+  .planos,
+  .all-in-one,
+  .beneficios {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  /*seção cinco - quem somos */
+  .quem-somos-container {
+    padding: 60px 80px 100px 60px;
+  }
+
+  .bg-image-sec-four {
+    background-image: url("sec-5-quem-somos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+  }
+
+  .quem-somos-title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #016a81;
+    -webkit-text-fill-color: #89e3f8;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica;
+    font-size: 60px;
+    opacity: 80%;
+  }
+
+  .quem-somos-subtitle {
+    color: #016a81;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .quem-somos-p {
+    color: #016a81;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .quem-somos-p-ita {
+    color: #016a81;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .nome-cargo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5px;
+    color: #016a81;
+    padding-top: 20px;
+  }
+
+  .nome {
+    font-weight: 700;
+    color: #016a81;
+    font-size: 24px;
+  }
+
+  .cargo {
+    font-style: italic;
+    font-size: 18px;
+  }
+}
